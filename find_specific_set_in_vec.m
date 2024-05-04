@@ -28,7 +28,7 @@ if sum(vec_poss(:,2:end),'all')>0
         end
     end
     
-    binary_mat_poss=sortrows(binary_mat_poss,'descend');
+    binary_mat_poss=sortrows(binary_mat_poss);
     binary_mat_poss(:,1)=[];
 
     % iterate over different sets of possible numbers to find a combination
